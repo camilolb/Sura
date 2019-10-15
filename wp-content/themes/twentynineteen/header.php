@@ -39,7 +39,7 @@
 		<header id="masthead" class="<?php echo is_singular() && twentynineteen_can_show_post_thumbnail() ? 'site-header featured-image' : 'site-header'; ?>">
 
 			<div class="site-branding-container">
-				<?php get_template_part( 'template-parts/header/site', 'branding' ); ?>
+				<img src="https://image.s6.sfmc-content.com/lib/fe9312737266037d76/m/1/e5f4676b-2647-4277-ac3f-506aaa2a4d23.png" class="img-fluid" width="180" height="69">
 			</div><!-- .site-branding-container -->
 
 			<?php if ( is_singular() && twentynineteen_can_show_post_thumbnail() ) : ?>
